@@ -31,11 +31,11 @@ public class APExit
 { 
 /** 즉시종료모드 			 	*/	public static final int EXIT_MODE_IMMEDIATLY = 0;
 /** 두번 뒤로가기 키 누름			*/	public static final int EXIT_MODE_DOUBLEBACK = 1;
-/** 종료 Alert Dialog 출력 			*/	public static final int EXIT_MODE_DIALOG = 2;
+/** 종료 Alert Dialog 출력 		*/	public static final int EXIT_MODE_DIALOG = 2;
 
 /** 두번 누름 키 제한시간			*/	private static final int DOUBLE_BACK_EXIT_TIMELIMIT = 2000;
 
-/**	요청 Activity				*/	private Activity activity;
+/**	요청 Activity			*/	private Activity activity;
 /**	요청하는 종료모드			*/	private int exitMode;
 /**	두번누름 제한시간			*/	private Timer timer;
 /**	뒤로가기키를 누른 상태의 여부		*/	private boolean mPressFirstBackKey;
